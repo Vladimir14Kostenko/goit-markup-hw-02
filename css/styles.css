@@ -1,3 +1,93 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF  */
+/* акцент #2196F3 */
+
 :root {
+    --primary-text-color: #757575;
+    --tittle-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+
+}
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--tittle-text-color);
+    font-size: 26px;
+    line-height: 145*31;
+    font-weight: 700;
+}
+
+.logo:hover {
+    color: var(--accent-color);
+    font-size: 26px;
+    line-height: 145*31;
+    font-weight: 700;
+
+}
+
+/* site nav */
+
+.site-nav .link {
+    color: var(--tittle-text-color);
+    font-size: 14px;
+    line-height: 135*16;
+    font-weight: 500;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+    font-size: 14px;
+    line-height: 135*16;
+    font-weight: 500;
+}
+
+/* hero */
+
+.hero-tittle {
+    color: var(--tittle-text-color);
+    font-size: 44px;
+    line-height: 696*120;
+    font-weight: 900;
     
+}
+
+/* section */
+
+.section-tittle {
+    color: var(--tittle-text-color);
+    font-size: 14x;
+    line-height: 270*16;
+    font-weight: 700;
+
+}
+
+/* advantage */
+
+.advantage-list .tittle {
+    color: var(--tittle-text-color);
+    font-size: 14px;
+    line-height: 270*75;
+    font-weight: 400;
+
+}
+
+/* button */
+
+.button {
+    background-color: var(--accent-color);
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 136*30;
+    font-weight: 700;
 }

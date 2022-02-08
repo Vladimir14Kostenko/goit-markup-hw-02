@@ -34,30 +34,30 @@ body {
   color: var(--accent-color);
 }
 /*навигация*/
-.site-nav a {
+.site-nav dark {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav link:hover,
+.site-nav link:focus {
   color: var(--accent-color);
 }
 .site-nav .link.current {
   color: var(--accent-color);
 }
 /*контакты*/
-.contacts a {
+.contacts link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
-.contacts a:hover,
-.contacts a:focus {
+.contacts link:hover,
+.contacts link:focus {
   color: var(--accent-color);
 }
 /*index.html*/
@@ -86,6 +86,11 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
+  
+  .hero-button:hover,
+  .hero-button:focus {
+      background-color: #188ce8;
+  }
  /*Особенности*/
  .feature {
    color: var(--title-text-color);
@@ -148,7 +153,6 @@ body {
  .footer-address {
    font-style: normal;
    color: var(--white-color);
-   background-color: var(--section-color);
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
@@ -156,8 +160,7 @@ body {
 
  .footer-contacts {
    font-style: normal;
-   color: rgba(255, 255, 255, 0.6);
-   background-color: var(--section-color);
+   color: rgba(255, 255, 255, 0.6);  
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;

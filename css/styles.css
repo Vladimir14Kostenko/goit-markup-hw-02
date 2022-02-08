@@ -114,7 +114,7 @@ body {
 
 /*наша команда*/
 .section-avatar {
-  color: var(--title-text-color);
+   color: var(--title-text-color);
    font-weight: 500;
    font-size: 16px;
    line-height: 1.19;
@@ -130,8 +130,8 @@ body {
  }
 /*footer*/
 .logo-footer {
-  color: var(--white-color);
-  background-color: var(--section-color);
+   color: var(--white-color);
+   background-color: var(--section-color);
    font-family: Raleway;
    font-size: 26px;
    line-height: 1.19;
@@ -140,6 +140,9 @@ body {
 
  .logo-footer span {
    color: var(--accent-color);
+ }
+ .footer { 
+     background-color: #000000;
  }
 
  .footer-address {

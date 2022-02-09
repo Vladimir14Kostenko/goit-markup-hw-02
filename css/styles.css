@@ -34,7 +34,7 @@ body {
   color: var(--accent-color);
 }
 /*навигация*/
-.site-nav dark {
+.site-nav-list {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -166,7 +166,7 @@ body {
    letter-spacing: 0.03em;
  }
 
- .footer-contacts:hover,
+.footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--accent-color);
 }

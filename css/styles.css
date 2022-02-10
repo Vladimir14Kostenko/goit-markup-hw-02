@@ -136,7 +136,6 @@ body {
 /*footer*/
 .logo-footer {
    color: var(--white-color);
-   background-color: var(--section-color);
    font-family: Raleway;
    font-size: 26px;
    line-height: 1.19;
